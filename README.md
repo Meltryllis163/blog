@@ -14,6 +14,12 @@
 
 ### 游戏
 
+#### 饥荒联机版（DST）
+
+[自己创建一个【友好地禁用客户端模组】](./dst/友好地禁用客户端模组.md)
+
+
+
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
