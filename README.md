@@ -14,7 +14,7 @@
 
 #### 算法
 
-[KMP 算法原理和代码详解 作者：bilibili@左程云](https://www.bilibili.com/video/BV19Q4y1c7ko)（非常详细，推荐！）
+[KMP 算法原理和代码详解](./编程/算法/KMP%20算法原理和代码详解.md)
 
 #### Github
 
