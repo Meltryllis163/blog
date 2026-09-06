@@ -12,6 +12,10 @@
 
 ### 编程
 
+#### 算法
+
+[KMP 算法原理和代码详解 作者：bilibili@左程云](https://www.bilibili.com/video/BV19Q4y1c7ko)（非常详细，推荐！）
+
 #### Github
 
 [Github 写博客问题记录](./编程/Github/Github%20写博客问题记录.md)
