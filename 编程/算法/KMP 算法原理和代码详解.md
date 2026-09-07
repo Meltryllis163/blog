@@ -39,19 +39,19 @@ public class KMP {
         int[] next = new int[m];
         next[0] = -1;
         next[1] = 0;
-        int j = 0; // j 表示当前要和前一个字符 pattern.charAt(i - 1) 比对的下标
+        int cn = 0; // j 表示当前要和前一个字符 pattern.charAt(i - 1) 比对的下标
         while (i < m) {
-            if (pattern.charAt(i - 1) == pattern.charAt(j)) {
-                next[i] = j + 1;
-                j++; // 这里的 j++ 其实是为了更新 j 为 next[i]，只不过正好是加 1 罢了。
+            if (pattern.charAt(i - 1) == pattern.charAt(cn)) {
+                next[i] = cn + 1;
+                cn++; // 这里的 cn++ 其实是为了更新 cn 为 next[i]，只不过正好是加 1 罢了。
                 i++;
-            } else if (j > 0) {
-                // 此时 next[j] != -1，即仍然可以回跳
-                j = next[j];
+            } else if (cn > 0) {
+                // 此时 next[cn] != -1，即仍然可以回跳
+                cn = next[cn];
             } else {
-                // 未匹配且 j == 0，无法回跳且没有合适的匹配前后缀
+                // 未匹配且 cn == 0，无法回跳且没有合适的匹配前后缀
                 next[i] = 0;
-                // j == 0; // 这里 j 本身就是 0，因此不用再赋值了。
+                // cn == 0; // 这里 cn 本身就是 0，因此不用再赋值了。
                 i++;
             }
         }
